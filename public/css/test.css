@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.find {
+
+    max-width: 800px;
+
+
+    margin: auto;
+
+}
+
+.general {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+
+.tab {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.ajout {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+input[type="text"],
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"],
+.aj {
+    padding: 10px;
+
+    width: 110px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.aj {
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.btn {
+
+    margin: 10px;
+}
+
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+input[type="submit"]:focus,
+input[type="reset"]:focus {
+    outline: none;
+}
+
+input[type="reset"] {
+    background-color: #f44336;
+}
+
+input[type="reset"]:hover {
+    background-color: #da190b;
+}
+
+.container {
+    display: flex;
+}
+
+.tab,
+.ajout {
+    flex: 1;
+    margin-right: 20px;
+    /* Adjust the margin as needed */
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 50px;
+
+
+}
+
+.tete {
+    display: flex;
+    align-items: center;
+
+    margin: 0px 10px;
+
+}
+
+
+
+.Panier {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    padding: 10px;
+}
+
+.nbprd {
+
+
+    color: white;
+    border: 1px solid #e0e0e0;
+    margin-left: 2px;
+    border-radius: 100%;
+    font-size: 14px;
+    padding: 5px;
+    background-color: black;
+    display: block;
+
+
+
+}
+
+.btaj {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btnpanier {
+    justify-content: space-between;
+    display: flex;
+}
+
+.btncmd {
+    background-color: rgba(62, 62, 238, 0.671);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.unavailable {
+    opacity: 0.5;
+    /* Rend la ligne transparente */
+    /* Ajoutez d'autres styles pour indiquer qu'elle est indisponible */
+}
+
+.stockindis {
+    background-color: red;
+    padding: 5px;
+
+    width: 110px;
+
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+}
